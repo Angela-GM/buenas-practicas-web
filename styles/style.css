@@ -1,0 +1,34 @@
+/* Resetear estilos predeterminados */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+/* Globals */
+li {
+    list-style: none;
+}
+
+/* Layout */
+header, main, footer {
+    border: 1px solid red;
+}
+/* Header */
+header {
+    height: 20vh;
+}
+header>nav, header>div {
+    border:solid 1px blue;
+    height: 10vh;
+}
+/* Main */
+main {
+    height: 60vh;
+}
+/* Footer */
+footer{
+    height: 20vh;
+}
